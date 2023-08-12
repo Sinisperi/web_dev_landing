@@ -469,7 +469,7 @@ form button {
   }
 
   .circle_phone {
-    margin-top: 500px;
+    margin-top: 0px;
   }
 
   .circle_under {
@@ -479,5 +479,10 @@ form button {
 
   .circle_under img {
     width: 400px;
+  }
+
+  .about_us {
+    flex-direction: row;
+    padding: 330px;
   }
 }
