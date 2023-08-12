@@ -411,6 +411,11 @@ form button {
 }
 
 @media screen and (min-width: 1024px) {
+  header nav {
+  }
+  .logo {
+    width: 70px;
+  }
   .hero {
     flex-direction: row;
     justify-content: space-evenly;
@@ -420,7 +425,7 @@ form button {
     max-width: 300px;
   }
   .cards {
-    width: 50%;
+    width: 45%;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
@@ -444,5 +449,35 @@ form button {
 
   form {
     width: 33%;
+  }
+
+  .dude_pic {
+    width: 400px;
+    height: 600px;
+    margin-top: 0;
+    margin-left: -300px;
+    margin-bottom: -500px;
+  }
+
+  .why {
+    flex-direction: row;
+    padding: 100px 350px;
+  }
+
+  .why_card {
+    width: 50%;
+  }
+
+  .circle_phone {
+    margin-top: 500px;
+  }
+
+  .circle_under {
+    width: 500px;
+    height: 500px;
+  }
+
+  .circle_under img {
+    width: 400px;
   }
 }
